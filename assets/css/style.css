@@ -1,0 +1,17 @@
+body {
+  font: Georgia;
+  color: grey;
+}
+
+#header1 {
+    word-spacing: .1em;
+    font-size: 50px;
+}
+
+#heroButtons button {
+	margin-right: 4px;
+}
+
+#characters img{
+	margin-right: 6px;
+}
