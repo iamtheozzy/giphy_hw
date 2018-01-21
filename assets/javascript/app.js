@@ -1,7 +1,7 @@
 var topics = ["Batman", "Ironman", "Spiderman", "Deadpool", "Wolverine", "Antman"];
 
 function displayGifs() {
-  $("characters").empty();
+  $("#characters").empty();
 
   var character = $(this).attr("char-name");
 
@@ -80,7 +80,7 @@ function renderButtons() {
 	}
 };
 
-//Extract the value of text field and create a new button
+// Take user input and make a new button
 $("#submitChar").on("click", function() {
 	event.preventDefault();
 
